@@ -13,7 +13,7 @@ const routes: Routes = [
   { path: 'products', component: ProductsComponent },
   { path: 'services', component: SupplyComponent },
   { path: '', redirectTo: '/home', pathMatch: 'full' },
-  { path: '**', component: HomepageComponent },
+  { path: '**', redirectTo: '/home', pathMatch: 'full' }, // Wildcard route (any other route) to Homepage
 ];
 
 @NgModule({

@@ -1,0 +1,20 @@
+.contact-info {
+  width: 100%;
+  display: flex;
+}
+
+.col-sm-3 {
+  margin: 15px 15px;
+}
+
+.media {
+  flex-direction: row;
+}
+
+.media-link {
+  flex-grow: 1;
+}
+
+li {
+  list-style-type: none;
+}

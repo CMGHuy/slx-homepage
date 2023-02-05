@@ -9,6 +9,10 @@ import { CareerComponent } from './career/career.component';
 import { CompanyComponent } from './company/company.component';
 import { BlogComponent } from './blog/blog.component';
 import { SupplyComponent } from './supply/supply.component';
+import { NavigationBarComponent } from './navigation-bar/navigation-bar.component';
+import { FooterComponent } from './footer/footer.component';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 
 @NgModule({
   declarations: [
@@ -18,11 +22,15 @@ import { SupplyComponent } from './supply/supply.component';
     CareerComponent,
     CompanyComponent,
     BlogComponent,
-    SupplyComponent
+    SupplyComponent,
+    NavigationBarComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    NgbModule,
+    FontAwesomeModule
   ],
   providers: [],
   bootstrap: [AppComponent]
