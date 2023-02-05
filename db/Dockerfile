@@ -1,0 +1,3 @@
+FROM postgres:15.1
+ENV POSTGRES_PASSWORD password
+ENV POSTGRES_DB homepage

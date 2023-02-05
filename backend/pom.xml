@@ -10,9 +10,9 @@
 	</parent>
 	<groupId>ch.solenix</groupId>
 	<artifactId>backend</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>0.1-SNAPSHOT</version>
 	<name>backend</name>
-	<description>Backend for company home page</description>
+	<description>Backend for company homepage</description>
 	<properties>
 		<java.version>17</java.version>
 	</properties>
